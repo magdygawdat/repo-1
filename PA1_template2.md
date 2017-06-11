@@ -5,8 +5,8 @@ Setting knitr options
 
     ## Warning: package 'knitr' was built under R version 3.3.3
 
-    base.dir <- ""
-    fig.path <- ""
+    base.dir <- "/Users/Magdy/Documents"
+    fig.path <- "/Users/Magdy/Documents/figure"
     opts_knit$set(self.contained=FALSE)
     knitr::opts_chunk$set(cache = TRUE, echo = TRUE, message = FALSE, 
                           warning = FALSE) 
