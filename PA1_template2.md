@@ -7,9 +7,9 @@ Setting knitr options
 
     base.dir <- ""
     fig.path <- ""
-    opts_knit$set(base.dir = base.dir, self.contained=FALSE)
+    opts_knit$set(self.contained=FALSE)
     knitr::opts_chunk$set(cache = TRUE, echo = TRUE, message = FALSE, 
-                          warning = FALSE, fig.path = fig.path, base.dir = base.dir) 
+                          warning = FALSE) 
 
 Loading and preprocessing data
 ==============================
