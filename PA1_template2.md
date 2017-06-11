@@ -25,7 +25,7 @@ Calculating mean total number of steps taken per day
     total.steps <- tapply(activityData$steps, activityData$date, FUN=sum, na.rm=TRUE)
     hist(total.steps, xlab="total number of steps taken each day")
 
-![](/Users/Magdy/Documents/figure/unnamed-chunk-2-1.png)
+![](/blob/figure/unnamed-chunk-2-1.png)
 
     mean(total.steps, na.rm=TRUE)
 
